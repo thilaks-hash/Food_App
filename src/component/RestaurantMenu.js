@@ -33,7 +33,7 @@ const RestaurantMenu = () => {
   return (
     <div>
       <h1>Restaurant id: {id}</h1>
-      <h2>{restaurantMenu.name}</h2>
+      <h2>{restaurantMenu.data.cards[0].card.card.info.name}</h2>
       {/* <img src={CDN_URL + restaurantMenu.cloudinaryImageId} />
       <h2>{restaurantMenu.areaName}</h2> */}
     </div>
