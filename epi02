@@ -1,0 +1,47 @@
+what is NPM?
+ans: It's a library and registry for JavaScript software packages.
+
+what is parcel/webpack?why do we need it?
+ans: Parcel and webpack are the bundlers used mostly for JavaScript or Typescript code that helps you to minify, clean, and make your code compact 
+so that it becomes easier to send a request or receive the response from the server
+
+what is '.parcel-cache'?
+ans: .parcel-cache stores information about your project when parcel builds it, so that when it rebuilds, it doesn't have to re-parse and re-analyze everything 
+from scratch. It's a key reason why parcel can be so fast in development mode.
+
+what is npx?
+ans: NPX stands for Node Package eXecute. It is simply an NPM package runner. It allows developers to execute any Javascript Package available on the NPM registry
+without even installing it. NPX is installed automatically with NPM version.
+
+what is difference between dependencies vs Devdependencies?
+ans:  Dependencies are the packages that are required for your application to run correctly in a production environment. These packages are essential 
+for the normal functioning of your application and are typically needed during runtime. They include libraries, frameworks, and other utilities that your
+application relies on to perform its core functionality.
+When you deploy your application to a production server or share it with others, these dependencies are necessary for it to work properly.
+
+DevDependencies, on the other hand, are packages that are only required during development and not in the production environment. These packages include 
+development tools, testing frameworks, build systems, and other utilities used to support your development workflow.
+DevDependencies are not deployed with your application when it goes into production because they are not needed for the end-users to use the application.
+
+
+what is Tree shaking?
+ans: Tree shaking is a term commonly used within a JavaScript context to describe the removal of dead code.
+
+what is Hot Module Replacement?
+ans:  Hot Module Replacement is a feature that enables you to see code changes in the browser without having to refresh it
+
+List out the 5 superpowers of parcel and describe them any 3 of them?
+ans:--> Zero Configuration: Parcel is known for its zero-configuration setup, which means you can start using it right away without the need for complex 
+configuration files. It automatically handles various aspects of your project, like transpiling, bundling, and code splitting, using sensible defaults. This simplicity allows developers to focus more on writing code and less on configuring build tools.
+
+    -->Automatic Asset Resolution: Parcel can handle various asset types, such as JavaScript, CSS, HTML, images, and more, without requiring explicit 
+    imports or configurations. It automatically recognizes dependencies from your code and bundles them appropriately, streamlining the development process 
+    and reducing manual intervention.
+
+     -->Fast Development Server with Hot Module Replacement (HMR): When running the development server, Parcel leverages HMR, a powerful feature that 
+     allows you to see changes in your code instantly without requiring a full page reload. This significantly speeds up the development process, making 
+     it more efficient and enjoyable. HMR is particularly beneficial for larger projects where the traditional manual refresh becomes time-consuming.
+
+
+what is '.gitignore'? what should we add and not add into it?
+ans:  The . gitignore file tells Git which files to ignore when committing your project to the GitHub repository.
