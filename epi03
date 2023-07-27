@@ -1,0 +1,32 @@
+//what is JSX?
+ans: Javascript XML It is an extension to javascript that allows a developer to write a html-like 
+code in react.which is transformed to react element while compilation process
+
+//Superpowers of JSX
+ans: 1.Declarative syntax
+2.component composition
+3.javascript expression
+4.event handling
+5.inline styling
+6.HTML-like code
+7.Tooling support
+
+//Role of type attribute in script tag what options can i use there?
+ans: The type attribute in the <script> tag is used to specify the media type of the script content contained within the tag. 
+It helps the browser understand how to interpret and execute the script code correctly.
+by default type is text/javascript
+module is used in the type to allow the browser to understand the import and export statements.
+
+
+//{TitleComponent}vs<TitleComponent/>vs{<TitleComponent></TitleComponent>} in jsx
+
+ans: {TitleComponent}
+This is not a valid JSX expression
+
+<TitleComponent/>
+This is a valid JSX self-closing element syntax. It creates an instance of the TitleComponent component without any children.
+
+{<TitleComponent></TitleComponent>}
+This is a valid JSX expression. It creates an instance of the TitleComponent component using opening and closing tags and can include
+other JSX elements or text as children inside the component
+
