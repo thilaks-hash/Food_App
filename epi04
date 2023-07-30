@@ -1,0 +1,61 @@
+Is JSX mandatory for react?
+ans: No, it is not mandatory 
+
+Is ES6 mandatory for react?
+ans:No,It is not mandatory to use react but it is highly recommended to use 
+
+How can I write comments in JSX?
+ans:  {/* This is a JSX comment */}
+
+What is <React.Fragment></React.Fragment> and <></>?
+ans: <React.Fragment></React.Fragment>:
+<React.Fragment> is a built-in component provided by React that allows you to group child elements without creating an additional DOM element.
+
+The fragment shorthand <>...</> is a more concise and popular way to achieve the same functionality as <React.Fragment>. It was introduced in React 16.2 
+as a convenient syntax for creating fragments.
+
+What is virtual DOM?
+ans: The real DOM is the tree-like structure of HTML elements that represents the current state of the web page. 
+Any time there's a change in the application's state or data, the real DOM is updated, and the browser has to re-render the entire page.
+Manipulating the real DOM can be slow and resource-intensive, especially for complex web applications.
+
+The Virtual DOM, on the other hand, is a lightweight copy of the real DOM kept in memory. 
+It is a JavaScript representation of the actual DOM and is updated whenever there are changes to the application's state or data. 
+The Virtual DOM is much faster to update than the real DOM because it's just a JavaScript object, and no actual browser manipulation takes place.
+
+What is reconciliation in react?
+ans: When a change occurs in a React application, such as a user interaction or a change in state,
+React generates a new Virtual DOM representing the updated UI. This new Virtual DOM is then compared with the previous Virtual DOM using a process called "reconciliation" or "diffing."
+
+React performs a tree-diffing algorithm to identify the minimal number of changes needed to transition from the previous Virtual DOM state to the new one. 
+It calculates which parts of the Virtual DOM have changed, added, or removed.
+
+What is react fiber?
+ans:  React fiber is a complete rewrite of react that fixes a few long-standing issues and offers incredible and offers opportunities heading into the future
+
+
+Why we need keys in React? when do we need keys in React?
+ans: In React, keys are special attributes used to identify and differentiate between elements in a list. 
+They are essential when rendering dynamic lists of elements, such as when you map over an array of data to create a set of components. 
+Each component generated from the array needs a unique key assigned to it. Keys help React efficiently update and manage the Virtual DOM when elements are added, removed, or reordered in a list.
+
+Can we use index as keys in React?
+ans:  Yes, you can use the index as keys in React, but it is generally not recommended unless you are certain
+that the list is static and will never change its order or have items added or removed.
+
+
+What is props in React?Ways to
+ans:  In React, "props" is short for "properties," and it is a mechanism for passing data from a parent component 
+to a child component. Props allow you to configure and customize child components with data, making them reusable and flexible.
+The parent component provides values for the props, and the child component receives and uses those values.
+
+What is config Driven UI?
+ans:  Config-driven UI (User Interface) refers to an approach in software development where the user interface design
+and behavior are primarily controlled and defined by configuration data, rather than being hard-coded in the application's source code. 
+It allows developers to create dynamic and customizable user interfaces by separating the UI logic from the core application logic.
+
+
+
+
+
+
